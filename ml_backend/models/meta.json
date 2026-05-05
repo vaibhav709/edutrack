@@ -1,0 +1,35 @@
+{
+  "features": [
+    "attendance_pct",
+    "gpa",
+    "internal_marks",
+    "assignments_completed_pct",
+    "study_hours_per_week",
+    "quiz_avg",
+    "prev_semester_score"
+  ],
+  "grade_classes": [
+    "A",
+    "A+",
+    "B",
+    "B+",
+    "C"
+  ],
+  "risk_classes": [
+    "High Risk",
+    "Low Risk",
+    "Medium Risk"
+  ],
+  "feature_importance": {
+    "attendance_pct": 25.59,
+    "gpa": 25.21,
+    "internal_marks": 22.9,
+    "assignments_completed_pct": 11.48,
+    "prev_semester_score": 6.02,
+    "quiz_avg": 5.66,
+    "study_hours_per_week": 3.13
+  },
+  "score_mae": 2.68,
+  "grade_accuracy": 0.748,
+  "risk_accuracy": 0.927
+}
